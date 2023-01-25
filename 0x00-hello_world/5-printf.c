@@ -6,7 +6,6 @@
 #include <string.h>
 int main(void)
 {
-char name[] = "with proper grammar, but the outcome is a piece of art,";
-printf(name);
+printf("with proper grammar, but the outcome is a piece of art,");
 return (0);
 }
