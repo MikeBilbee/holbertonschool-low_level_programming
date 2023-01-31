@@ -1,8 +1,7 @@
 #include "main.h"
 /**
 * main - Prints Putchar as a message.
-*
-* Return: always 0
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -17,3 +16,4 @@ putchar('r');
 putchar('\n');
 return (0);
 }
+
