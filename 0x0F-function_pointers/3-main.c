@@ -3,9 +3,9 @@
 #include <stdio.h>
 /**
  * main - Prints result of simple operations
- * @argc: 
- * @argv: 
- * Return: 
+ * @argc: String
+ * @argv: Array of strings
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
