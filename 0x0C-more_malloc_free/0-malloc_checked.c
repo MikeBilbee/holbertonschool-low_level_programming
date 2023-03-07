@@ -5,7 +5,7 @@
 /**
 *malloc_checked - entry point
 *@b: input amount
-*return: pointer to new mem
+*Return: pointer to new mem
 */
 void *malloc_checked(unsigned int b)
 {
