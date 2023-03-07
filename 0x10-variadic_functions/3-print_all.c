@@ -1,49 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdarg.h>
 #include "variadic_functions.h"
-
 /**
-* print_all - prints anything
-* @format: a list of types of arguments passed to the function
-* return: no return
-*/
+ * print_all - prints everything
+ * @format: format of the string to be printed
+ */
+
 void print_all(const char * const format, ...)
 {
-va_list valist;
-unsigned int i = 0, j, c = 0;
-char *str;
-const char t_arg[] = "cifs";
+unsigned int i;
+va_list args;
+int flag;
+char *s;
 
-va_start(valist, format);
+va_start(args, format);
+i = 0;
 while (format && format[i])
 {
-j = 0;
-while (t_arg[j])
-{
-if (format[i] == t_arg[j] && c)
-{
-printf(", ");
-break;
-}
-j++;
-}
+flag = 0;
 switch (format[i])
 {
 case 'c':
-printf("%c", va_arg(valist, int)), c = 1;
+printf("%c", va_arg(args, int));
+flag = 1;
+break;
+case 'i':
+printf("%d", va_arg(args, int));
+flag = 1;
 break;
 case 'f':
-printf("%f", va_arg(valist, double)), c = 1;
+printf("%f", va_arg(args, double));
+flag = 1;
 break;
 case 's':
-str = va_arg(valist, char *), c = 1;
-if (!str)
-{
-printf("(nil)");
+s = va_arg(args, char *);
+if (s == NULL)
+s = "(nil)";
+printf("%s", s);
+flag = 1;
 break;
 }
-printf("%s", str);
-break;
-}
+if (flag == 1 && format[i + 1])
+printf(", ");
 i++;
 }
-printf("\n"), va_end(valist);
+printf("\n");
+va_end(args);
 }
