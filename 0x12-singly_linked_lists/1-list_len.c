@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * list_len - Adds node the head of list_t
- * @h: Node
- * Return: Address of new node or NULL
+ * list_len - Prints length
+ * @h: Pointer
+ * Return: Elements or NULL
  */
 size_t list_len(const list_t *h)
 {
