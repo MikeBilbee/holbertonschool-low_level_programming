@@ -12,7 +12,6 @@ int count = 0;
 while (tmp)
 {
 printf("%d\n", tmp->n);
-count += 1;
 tmp = tmp->next;
 count++;
 }
