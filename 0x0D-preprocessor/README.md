@@ -1,1 +1,0 @@
-0. creates a header file that defines a macro 1. also creates a header file that defines a macro 2.prints the name of the file 3.computes the absolute value of a number 4. computes the sum of a couple of numbers
