@@ -9,13 +9,13 @@ int is_prime_check(int n, int d)
 {
 	if (d <= 1)
 	{
-        return 1;
-    }
-    if (n % d == 0)
+		return (1);
+	}
+	if (n % d == 0)
 	{
-        return 0;
-    }
-    return is_prime_check(n, d - 1);
+		return (0);
+	}
+	return (is_prime_check(n, d - 1));
 }
 
 /**
