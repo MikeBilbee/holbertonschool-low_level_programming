@@ -3,7 +3,7 @@
  * _findsqrt - finds the square root of a number
  * @v: value
  * @r: number under radical
- * Returns: square root of a number
+ * Return: square root of a number
 */
 int _findsqrt(int v, int r)
 {
