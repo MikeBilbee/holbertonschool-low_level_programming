@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - prints it's name
- * @argc: argument 
+ * @argc: argument
  * @argv: argument
  * Return: Always 0
 */
