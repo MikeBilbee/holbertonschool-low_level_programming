@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	printf("%d/n", prd);
+	printf("%d\n", prd);
 
 	return (0);
 }
