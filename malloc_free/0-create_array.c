@@ -6,3 +6,6 @@
  * Return: Pointer to Array, otherwise NULL
 */
 char *create_array(unsigned int size, char c)
+{
+	
+}
