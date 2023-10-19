@@ -1,10 +1,10 @@
-<h1 style="text-align: center;>HOLBERTON T1 Concurrent: Malloc/Free</h1>
+<h1 style="text-align: center;"> HOLBERTON T1 Concurrent: Malloc/Free</h1>
 
 This Project covers Dynamic Memory Allocation in C
 
 ---
 
-<h3 style="text-align: center;>Repository Contents</h3>
+<h3 style="text-align: center;">Repository Contents</h3>
 
 | Task | File | Description |
 | ----- | ----- | ----- |
