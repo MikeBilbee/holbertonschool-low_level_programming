@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strdup - allocates memory for the given string
- * @str: string to allocat ememory for
+ * @str: string to allocate memory for
  * Return: Pointer to string, or NULL
 */
 char *_strdup(char *str)
