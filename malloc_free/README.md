@@ -8,7 +8,7 @@ This Project covers Dynamic Memory Allocation in C
 
 | Task | File | Description |
 | ----- | ----- | ----- |
-| 0. Float like a butterfly, sting like a bee | [0-create_array.c]() | A function that creates an array of chars, and initializes it with a specific char.
+| 0. Float like a butterfly, sting like a bee | [0-create_array.c](https://github.com/MikeBilbee/holbertonschool-low_level_programming/blob/master/malloc_free/0-create_array.c) | A function that creates an array of chars, and initializes it with a specific char.
 
 ---
 
