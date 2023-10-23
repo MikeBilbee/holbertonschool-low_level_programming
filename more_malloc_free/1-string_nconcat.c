@@ -9,7 +9,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *new;
-	unsigned int len = n, index;
+	size_t len = n, index;
 
 	if (!s1)
 	{
