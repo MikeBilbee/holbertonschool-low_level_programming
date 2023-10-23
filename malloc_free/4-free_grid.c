@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * free_grid - Frees array at pointer returned by alloc_grid()
- * @grid: array 
+ * @grid: array
  * @height: grid height
  * Return: None
 */
