@@ -15,7 +15,6 @@ This Project covers Dynamic Memory Allocation in C
 | 4. It's not bragging if you can back it up | [4-free_grid.c](https://github.com/MikeBilbee/holbertonschool-low_level_programming/blob/master/malloc_free/4-free_grid.c) | A function that frees a 2 dimensional grid previously created by ``alloc_grid()`` function. |
 
 
-
 ---
 
 More from me : [MikeBilbee](https://github.com/MikeBilbee)
