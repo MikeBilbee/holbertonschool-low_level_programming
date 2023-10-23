@@ -12,7 +12,8 @@ This Project covers Dynamic Memory Allocation in C
 | 1. The woman who has no imagination has no wings | [1-strdup.c](https://github.com/MikeBilbee/holbertonschool-low_level_programming/blob/master/malloc_free/1-strdup.c) | A function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter. |
 | 2. He who is not courageous enough to take risks will accomplish nothing in life | [2-str_concat.c](https://github.com/MikeBilbee/holbertonschool-low_level_programming/blob/master/malloc_free/2-str_concat.c) | A function that concatenates two strings. |
 | 3. If you even dream of beating me you'd better wake up and apologize | [3-alloc_grid.c](https://github.com/MikeBilbee/holbertonschool-low_level_programming/blob/master/malloc_free/3-alloc_grid.c) | A function that returns a pointer to a 2 dimensional array of integers. |
-| 4. It's not bragging if you can back it up | [4-free_grid.c]()
+| 4. It's not bragging if you can back it up | [4-free_grid.c](https://github.com/MikeBilbee/holbertonschool-low_level_programming/blob/master/malloc_free/4-free_grid.c) | A function that frees a 2 dimensional grid previously created by ``alloc_grid()`` function. |
+
 
 
 ---
