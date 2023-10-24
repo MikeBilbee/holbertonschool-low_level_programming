@@ -8,4 +8,5 @@ This Project covers preprocessing and macros
 
 | Task | File | Description |
 | ----- | ----- | ----- |
-| 0. Object-like Macro | [0-object_like_macro.h]() | A header file that defines a macro named SIZE as an abbreviation for the token 1024. |
+| 0. Object-like Macro | [0-object_like_macro.h](https://github.com/MikeBilbee/holbertonschool-low_level_programming/blob/master/preprocessor/0-object_like_macro.h) | A header file that defines a macro named SIZE as an abbreviation for the token 1024. |
+| 1. Pi | [1-pi.hd]() | A header file that defines a macro named PI as an abbreviation for the token 3.14159265359. |
