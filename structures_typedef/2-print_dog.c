@@ -2,7 +2,7 @@
 /**
  * print_dog - prints struct dog
  * @d: instantiated dog
- * Return: 
+ * Return: None
 */
 void print_dog(struct dog *d)
 {
