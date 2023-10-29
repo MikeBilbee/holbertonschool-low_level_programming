@@ -1,5 +1,10 @@
 #ifndef CALC_H
 #define CALC_H
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <stddef.h>
+
 /**
  * struct op - Struct op
  * @op: The operator
