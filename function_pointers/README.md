@@ -8,5 +8,5 @@ This Project covers function pointers
 
 | Task | File | Description |
 | ----- | ----- | ----- |
-| 0. What's my name | [0-print_name.c]() | A function that prints a name. |
+| 0. What's my name | [0-print_name.c](https://github.com/MikeBilbee/holbertonschool-low_level_programming/blob/master/function_pointers/0-print_name.c) | A function that prints a name. |
 | 
