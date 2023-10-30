@@ -2,6 +2,7 @@
 /**
  * print_all - prints everything
  * @format: format of the string to be printed
+ * Return: None
  */
 
 void print_all(const char * const format, ...)
