@@ -16,19 +16,27 @@ int binary_search(int *array, size_t size, int value)
 		return (-1);
 	}
 
-	printf("Searching in array: ");
-	for (i = 0; i < size; i++)
-	{
-		printf("%d", array[i]);
-	}
-	printf("%d\n", value);
-
 	while (min <= max)
 	{
 		mid = (min + max) / 2;
+	
+		printf("Searching in array: ");
+		for (i = min; i <= max; i++)
+		{
+			printf("%d", array[i]);
+			if (i == max)
+			{
+				printf("\n");
+			}
+			else
+			{
+				printf(", ");
+			}
+		}
+
 		if (array[mid] == value)
 		{
-			return(mid);
+			return (mid);
 		}
 		else if (array[mid] < value)
 		{
